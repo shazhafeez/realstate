@@ -1,0 +1,35 @@
+.h-wrapper{
+    color: white;
+}
+.h-container{
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color : var(--secondary);
+}
+.h-menu{
+    gap:2rem;
+
+}
+.h-menu>*:hover{
+    cursor: pointer;
+}
+@media screen and (max-width:712px) and (max-height:430px){
+    .h-wrapper{
+        
+        height: 15vh;
+       
+        
+    }
+    .h-wrapper>*{
+        font-size: 0.65rem;
+        
+    }
+    .h-container>img{
+        width: 3.5rem;
+    }
+    .button{
+        width: 15vw;
+        height: 8vh;
+    }
+}
